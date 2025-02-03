@@ -1,8 +1,5 @@
 
 ---
-
-### **README.md**  
-
 ```markdown
 # SOLIDWORKS Certification Practice (Chapters 1-7)  
 
