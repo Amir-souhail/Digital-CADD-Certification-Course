@@ -1,4 +1,3 @@
-Got it! Here's the revised `README.md` file without mentioning the specific version of SOLIDWORKS:
 
 ---
 
@@ -63,4 +62,3 @@ This repository is intended for educational purposes. Feel free to use the exerc
 
 ---
 
-This version removes any reference to the specific version of SOLIDWORKS, making it more general and applicable to any version of the software. Let me know if you need further adjustments!
