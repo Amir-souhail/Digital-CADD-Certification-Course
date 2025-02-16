@@ -1,6 +1,6 @@
-# Tool Head of Shaping Machine Assembly
+# Lathe Tailstock Assembly
 
-This repository contains the **SolidWorks files** and **STEP files** for the **Tool Head of Shaping Machine Assembly**. The project includes individual part files and the complete assembly based on the provided technical details. All dimensions are in millimeters (mm).
+This repository contains the **SolidWorks files** and **STEP files** for the **Lathe Tailstock Assembly**. The project includes individual part files and the complete assembly based on the provided technical details. All dimensions are in millimeters (mm).
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -15,32 +15,24 @@ This repository contains the **SolidWorks files** and **STEP files** for the **T
 ---
 
 ## Project Description
-The **Tool Head of Shaping Machine Assembly** is a critical component of a shaping machine, used to hold and position cutting tools for machining operations. It consists of a back plate, vertical slide, adjustable strip, gibs screw, screw rod, spacer bush, handle bar, round key, nut mid, handle, swivel plate, swivel screw pin, washer, clamping screw, drag plate, pivot pin, tool holder, washer, and tool fixing screw. This project involves creating 3D models of all components and assembling them based on the provided technical drawings.
+The **Lathe Tailstock Assembly** is a crucial component of a lathe machine, used to support the workpiece during machining operations. It consists of a body, handle (lock), screw spindle, clamping plate, dead centre, barrel, stud, flange, hand wheel, and various fasteners. This project involves creating 3D models of all components and assembling them based on the provided technical drawings.
 
 ---
 
 ## Detailed Description
-The Tool Head of Shaping Machine Assembly is designed to provide precise control over the cutting tool during shaping operations. The key components include:
-- **Back Plate**: The main structural component that supports the entire assembly.
-- **Vertical Slide**: Allows vertical movement of the tool head.
-- **Adjustable Strip**: Provides fine adjustments to the tool position.
-- **Gibs Screw**: Secures the adjustable strip in place.
-- **Screw Rod**: Facilitates movement and adjustment of the tool head.
-- **Spacer Bush**: Maintains proper spacing between components.
-- **Handle Bar**: Used to manually adjust the tool head.
-- **Round Key**: Ensures proper alignment of rotating components.
-- **Nut Mid**: Secures the handle bar in place.
-- **Handle**: Provides a grip for manual adjustments.
-- **Swivel Plate**: Allows angular adjustment of the tool head.
-- **Swivel Screw Pin**: Secures the swivel plate in place.
-- **Washer**: Distributes the load and prevents damage to components.
-- **Clamping Screw**: Secures the tool head in the desired position.
-- **Drag Plate**: Provides additional support and stability.
-- **Pivot Pin**: Allows rotational movement of the tool head.
-- **Tool Holder**: Holds the cutting tool in place.
-- **Tool Fixing Screw**: Secures the cutting tool in the tool holder.
+The Lathe Tailstock Assembly is designed to provide stability and precision during lathe operations. The key components include:
+- **Body**: The main structural component that houses the internal mechanisms.
+- **Handle (Lock)**: Used to lock the tailstock in place.
+- **Screw Spindle**: Facilitates the movement of the tailstock along the lathe bed.
+- **Clamping Plate**: Secures the tailstock to the lathe bed.
+- **Dead Centre**: Supports the workpiece during machining.
+- **Barrel**: Houses the dead centre and allows for fine adjustments.
+- **Stud**: Connects the barrel to the body.
+- **Flange**: Provides additional support and alignment.
+- **Hand Wheel**: Used to manually adjust the position of the tailstock.
+- **Various Fasteners**: Includes screws, nuts, washers, and keys to secure the components.
 
-This assembly is essential for achieving accurate and consistent machining results in shaping operations.
+This assembly is essential for achieving accurate and consistent machining results in lathe operations.
 
 ---
 
@@ -49,85 +41,89 @@ The following parts are included in this repository (names derived from the atta
 
 | ITEM NO. | DESCRIPTION           | MATERIAL     | QUANTITY |
 |----------|-----------------------|--------------|----------|
-| 1        | Back Plate            | Cast Steel   | 1        |
-| 2        | Vertical Slide        | Cast Steel   | 1        |
-| 3        | Adjustable Strip      | Fe 410 W     | 2        |
-| 4        | Gibs Screw            | Fe 410 W     | 1        |
-| 5        | Screw Rod             | Fe 410 W     | 1        |
-| 6        | Spacer Bush           | Fe 410 W     | 2        |
-| 7        | Handle Bar            | Cast Steel   | 1        |
-| 8        | Round Key             | Fe 410 W     | 2        |
-| 9        | Nut Mid               | Fe 410 W     | 1        |
-| 10       | Handle                | Fe 410 W     | 1        |
-| 11       | Swivel Plate          | Fe 410 W     | 2        |
-| 12       | Swivel Screw Pin      | Fe 410 W     | 2        |
-| 13       | Washer                | Fe 410 W     | 1        |
-| 14       | Clamping Screw        | Fe 410 W     | 1        |
-| 15       | Drag Plate            | Fe 410 W     | 2        |
-| 16       | Pivot Pin             | Fe 410 W     | 2        |
-| 17       | Tool Holder           | Fe 410 W     | 1        |
-| 18       | Washer                | Fe 410 W     | 1        |
-| 19       | Tool Fixing Screw     | Fe 410 W     | 2        |
+| 1        | Body                  | C.I.         | 1        |
+| 2        | Handle (Lock)         | C.I.         | 1        |
+| 3        | Nut (M 12)            | M.S.         | 1        |
+| 4        | Washer (M 12)         | M.S.         | 1        |
+| 5        | Screw Spindle         | M.S.         | 1        |
+| 6        | Clamping Plate        | Steel        | 1        |
+| 7        | Dead Centre           | Steel        | 1        |
+| 8        | Nut (M 22)            | M.S.         | 1        |
+| 9        | Square Bolt           | M.S.         | 1        |
+| 10       | Washer (M 22)         | M.S.         | 1        |
+| 11       | Barrel                | C.I.         | 1        |
+| 12       | Key (Barrel)          | M.S.         | 1        |
+| 13       | Stud                  | M.S.         | 1        |
+| 14       | Key (Wheel)           | M.S.         | 1        |
+| 15       | Hand Wheel            | C.I.         | 1        |
+| 16       | Washer (M 16)         | M.S.         | 1        |
+| 17       | Nut (M 16)            | M.S.         | 1        |
+| 18       | Flange                | C.I.         | 1        |
+| 19       | Screw (M 8)           | M.S.         | 4        |
+| 20       | Handle (Wheel)        | M.S.         | 1        |
 
 ---
 
 ## Assembly Instructions
-1. Start with the **Back Plate** (Item No. 1) as the base component.
-2. Attach the **Vertical Slide** (Item No. 2) to the back plate.
-3. Install the **Adjustable Strip** (Item No. 3) and secure it with the **Gibs Screw** (Item No. 4).
-4. Insert the **Screw Rod** (Item No. 5) and **Spacer Bush** (Item No. 6) to facilitate movement.
-5. Attach the **Handle Bar** (Item No. 7) and secure it with the **Round Key** (Item No. 8) and **Nut Mid** (Item No. 9).
-6. Install the **Handle** (Item No. 10) for manual adjustments.
-7. Attach the **Swivel Plate** (Item No. 11) and secure it with the **Swivel Screw Pin** (Item No. 12).
-8. Place the **Washer** (Item No. 13) and **Clamping Screw** (Item No. 14) to secure the tool head.
-9. Install the **Drag Plate** (Item No. 15) and **Pivot Pin** (Item No. 16) for additional support.
-10. Attach the **Tool Holder** (Item No. 17) and secure the cutting tool with the **Tool Fixing Screw** (Item No. 19).
-11. Ensure all parts are aligned correctly as per the technical drawings.
+1. Start with the **Body** (Item No. 1) as the base component.
+2. Attach the **Handle (Lock)** (Item No. 2) to the body.
+3. Insert the **Screw Spindle** (Item No. 5) and secure it with the **Nut (M 12)** (Item No. 3) and **Washer (M 12)** (Item No. 4).
+4. Attach the **Clamping Plate** (Item No. 6) to secure the tailstock to the lathe bed.
+5. Install the **Dead Centre** (Item No. 7) into the **Barrel** (Item No. 11).
+6. Connect the **Barrel** to the body using the **Stud** (Item No. 13) and **Key (Barrel)** (Item No. 12).
+7. Attach the **Flange** (Item No. 18) and secure it with the **Screw (M 8)** (Item No. 19).
+8. Install the **Hand Wheel** (Item No. 15) and secure it with the **Key (Wheel)** (Item No. 14), **Washer (M 16)** (Item No. 16), and **Nut (M 16)** (Item No. 17).
+9. Attach the **Handle (Wheel)** (Item No. 20) for manual adjustments.
+10. Ensure all parts are aligned correctly as per the technical drawings.
 
 ---
 
 ## Files Included
 All files are located in the root folder of this repository:
 - **SolidWorks Files**:
-  - `Back_Plate.sldprt`
-  - `Vertical_Slide.sldprt`
-  - `Adjustable_Strip.sldprt`
-  - `Gibs_Screw.sldprt`
-  - `Screw_Rod.sldprt`
-  - `Spacer_Bush.sldprt`
-  - `Handle_Bar.sldprt`
-  - `Round_Key.sldprt`
-  - `Nut_Mid.sldprt`
-  - `Handle.sldprt`
-  - `Swivel_Plate.sldprt`
-  - `Swivel_Screw_Pin.sldprt`
-  - `Washer.sldprt`
-  - `Clamping_Screw.sldprt`
-  - `Drag_Plate.sldprt`
-  - `Pivot_Pin.sldprt`
-  - `Tool_Holder.sldprt`
-  - `Tool_Fixing_Screw.sldprt`
-  - `Tool_Head_Assembly.sldasm` (Complete assembly file)
+  - `Body.sldprt`
+  - `Handle_Lock.sldprt`
+  - `Nut_M12.sldprt`
+  - `Washer_M12.sldprt`
+  - `Screw_Spindle.sldprt`
+  - `Clamping_Plate.sldprt`
+  - `Dead_Centre.sldprt`
+  - `Nut_M22.sldprt`
+  - `Square_Bolt.sldprt`
+  - `Washer_M22.sldprt`
+  - `Barrel.sldprt`
+  - `Key_Barrel.sldprt`
+  - `Stud.sldprt`
+  - `Key_Wheel.sldprt`
+  - `Hand_Wheel.sldprt`
+  - `Washer_M16.sldprt`
+  - `Nut_M16.sldprt`
+  - `Flange.sldprt`
+  - `Screw_M8.sldprt`
+  - `Handle_Wheel.sldprt`
+  - `Lathe_Tailstock_Assembly.sldasm` (Complete assembly file)
 - **STEP Files**:
-  - `Back_Plate.step`
-  - `Vertical_Slide.step`
-  - `Adjustable_Strip.step`
-  - `Gibs_Screw.step`
-  - `Screw_Rod.step`
-  - `Spacer_Bush.step`
-  - `Handle_Bar.step`
-  - `Round_Key.step`
-  - `Nut_Mid.step`
-  - `Handle.step`
-  - `Swivel_Plate.step`
-  - `Swivel_Screw_Pin.step`
-  - `Washer.step`
-  - `Clamping_Screw.step`
-  - `Drag_Plate.step`
-  - `Pivot_Pin.step`
-  - `Tool_Holder.step`
-  - `Tool_Fixing_Screw.step`
-  - `Tool_Head_Assembly.step` (Complete assembly file)
+  - `Body.step`
+  - `Handle_Lock.step`
+  - `Nut_M12.step`
+  - `Washer_M12.step`
+  - `Screw_Spindle.step`
+  - `Clamping_Plate.step`
+  - `Dead_Centre.step`
+  - `Nut_M22.step`
+  - `Square_Bolt.step`
+  - `Washer_M22.step`
+  - `Barrel.step`
+  - `Key_Barrel.step`
+  - `Stud.step`
+  - `Key_Wheel.step`
+  - `Hand_Wheel.step`
+  - `Washer_M16.step`
+  - `Nut_M16.step`
+  - `Flange.step`
+  - `Screw_M8.step`
+  - `Handle_Wheel.step`
+  - `Lathe_Tailstock_Assembly.step` (Complete assembly file)
 - **Technical Drawings**:
   - `Technical_Drawings/` (Folder containing reference drawings)
 - `README.md`: This file.
