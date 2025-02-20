@@ -29,6 +29,9 @@ The Ball Bearing Assembly is designed to provide smooth rotational motion with m
 
 This assembly is widely used in various mechanical applications, including automotive, industrial machinery, and household appliances.
 
+### Preview of the Ball Bearing Assembly
+![Ball Bearing Assembly](Ball_Bearing_Assembly_1.jpg)
+
 ---
 
 ## Parts List
@@ -72,6 +75,8 @@ All files are located in the root folder of this repository:
   - `Ball_Bearing_Assembly.step` (Complete assembly file)
 - **PDF Drawings**:
   - `Technical_Drawings/` (Folder containing PDF drawings prepared by me)
+- **Preview Image**:
+  - `Ball_Bearing_Assembly_1.jpg` (Preview of the assembly)
 - `README.md`: This file.
 
 ---
