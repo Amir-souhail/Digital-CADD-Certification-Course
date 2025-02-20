@@ -30,7 +30,7 @@ The Ball Bearing Assembly is designed to provide smooth rotational motion with m
 This assembly is widely used in various mechanical applications, including automotive, industrial machinery, and household appliances.
 
 ### Preview of the Ball Bearing Assembly
-![Ball Bearing Assembly](Ball_Bearing_Assembly_1.jpg)
+![](Ball_Bearing_Assembly_1.jpg)
 
 ---
 
