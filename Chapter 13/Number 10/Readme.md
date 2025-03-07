@@ -1,20 +1,25 @@
 # Butterfly Valve Assembly
 
-This folder contains the **technical drawings** and associated files for a **Butterfly Valve Assembly**. The assembly includes components such as the valve body, plate, nut, screw, and other related parts. The folder includes the following files:
+This folder contains the **technical drawings** and associated files for a **Butterfly Valve Assembly**, created as part of the **Digital CADD Course Certification**. The assembly includes components such as the valve body, plate, nut, screw, and other related parts. The folder includes the following files:
 
 - **Butterfly assembly.jpg**: Technical drawing of the butterfly valve assembly.
 - **Drawings.jpg**: Additional technical drawings showing detailed views and sections.
 - **STEP Files**: 3D models in STEP format for CAD software.
-- **STL Files**: 3D models in STL format for 3D printing.
 - **Resources**: Additional resources such as reference images or design guidelines.
 
 ## Table of Contents
+- [Project Description](#project-description)
 - [Part Description](#part-description)
 - [Files Included](#files-included)
 - [Usage](#usage)
 - [Software Requirements](#software-requirements)
 - [Contact Information](#contact-information)
 - [License](#license)
+
+---
+
+## Project Description
+This project is part of the **Digital CADD Course Certification**, designed to teach students how to create and interpret technical drawings, design 3D models, and assemble mechanical components. The **Butterfly Valve Assembly** is one of the key projects in the course, focusing on fluid control systems and mechanical design.
 
 ---
 
@@ -45,7 +50,6 @@ The folder contains the following files:
 - **Butterfly assembly.jpg**: Technical drawing of the butterfly valve assembly, showing the overall structure and components.
 - **Drawings.jpg**: Additional technical drawings, including section views and detailed dimensions.
 - **STEP Files**: 3D models in STEP format for use in CAD software.
-- **STL Files**: 3D models in STL format for 3D printing.
 - **Resources**: Additional resources such as reference images or design guidelines.
 
 ---
@@ -53,8 +57,7 @@ The folder contains the following files:
 ## Usage
 1. **Technical Drawings**: Refer to the `Butterfly assembly.jpg` and `Drawings.jpg` files for detailed dimensions, component details, and assembly instructions.
 2. **STEP Files**: Use the STEP files in CAD software (e.g., SolidWorks, Fusion 360, FreeCAD) for design and assembly projects.
-3. **STL Files**: Use the STL files for 3D printing or prototyping.
-4. **Resources**: Use the additional resources for inspiration or design guidance.
+3. **Resources**: Use the additional resources for inspiration or design guidance.
 
 ---
 
@@ -65,10 +68,6 @@ To use the files in this folder, you will need one of the following software:
   - Fusion 360
   - FreeCAD
   - AutoCAD
-- **3D Printing Software** (for STL files):
-  - Cura
-  - PrusaSlicer
-  - Simplify3D
 - **Image Viewer** (for technical drawings):
   - Any standard image viewer (e.g., Windows Photos, Preview on macOS).
 
