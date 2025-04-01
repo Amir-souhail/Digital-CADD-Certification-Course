@@ -1,6 +1,6 @@
 # Root Blower Compressor Assembly
 
-![Root Blower Compressor Assembly](Root_Blower_Compressor_Assembly.png) *[Preview image to be added]*
+
 
 ## Project Description
 This repository contains the complete CAD design and technical documentation for a Roots-type blower compressor assembly. The design includes all major components and fasteners required for a functional rotary lobe compressor system.
