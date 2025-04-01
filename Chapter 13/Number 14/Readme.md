@@ -16,7 +16,7 @@ Industrial toggle clamp with mechanical over-center locking. Provides 500-800N c
 - Precisely machined mounting holes fit standard jigs  
 - Ground flat within 0.1mm for even pressure  
 
-### 2. Connecting Rod (4140 Steel | Ø12mm)  
+### 2. Connecting Rod (4140 Steel | Ø12mm)    
 **Purpose:** Force transmission  
 **Key Feature:**  
 - Hardened surface withstands cyclic loading  
