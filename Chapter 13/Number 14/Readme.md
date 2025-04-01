@@ -1,6 +1,6 @@
 # Toggle Clamp Assembly
 
-![Toggle Clamp](Toggle_Clamp_Assembly_Drawing.JPG)
+
 
 ## Description  
 Industrial toggle clamp with mechanical over-center locking. Provides 500-800N clamping force for machining, welding, and assembly lines. Designed for 50,000+ cycles with bronze bushings.
