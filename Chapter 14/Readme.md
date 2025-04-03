@@ -1,60 +1,65 @@
-# CHAPTER 14: WORKING WITH DRAWING VIEWS
-## SOLIDWORKS Certification - DigitalCADD
+# SOLIDWORKS DRAWING VIEWS - CHAPTER 14
+# DigitalCADD Certification Program
 
-==========================================
+===============================================================================
 1. DRAWING MODE FUNDAMENTALS
-==========================================
-• Generative Drafting: Auto 2D from 3D [Standard 3 View]
-• Interactive Drafting: Manual sketching
-• Bidirectional Associativity: Real-time sync
+===============================================================================
+• Generative Drafting : Automatic 2D views from 3D models
+• Interactive Drafting: Manual sketching in Drawing mode
+• Bidirectional Sync : Changes update across all documents
 
-==========================================
-2. VIEW TYPES
-==========================================
-| Type            | Command          | Shortcut       |
-|-----------------|------------------|----------------|
-| Standard        | Orthographic     | Front/Top/Side |
-| Section         | Cross-section    | Section View   |
-| Detail          | Magnified        | Detail View    |
-| Exploded        | Assembly         | Exploded View  |
-| Auxiliary       | Angled surfaces  | Auxiliary View |
+===============================================================================
+2. VIEW TYPES & COMMANDS
+===============================================================================
+| VIEW TYPE       | DESCRIPTION               | COMMAND           | SHORTCUT     |
+|-----------------|---------------------------|-------------------|--------------|
+| Standard        | Orthographic projections  | Standard 3 View   | Front/Top/Side|
+| Section         | Cross-sectional display   | Section View      | Cut-plane    |
+| Detail          | Magnified features        | Detail View       | Circle-select|
+| Exploded        | Assembly separation       | Exploded View     | In Assembly  |
+| Auxiliary       | Angled surfaces           | Auxiliary View    | Edge-select  |
 
-==========================================
-3. VIEW MANIPULATION
-==========================================
-• Scale: Properties > Scale
-• Align: Right-click > Align
-• Delete: Select + Del
-• Section Options:
-  - Hatch: Section View > Hatch
-  - Cut lines: Edit plane
+===============================================================================
+3. VIEW EDITING
+===============================================================================
+[Scale]        : Properties > Scale
+[Align]        : Right-click > Align View
+[Delete]       : Select + Delete key
+[Hatch]        : Section View > Hatch Properties
+[Cut Lines]    : Edit cutting plane sketch
 
-==========================================
+===============================================================================
 4. ANNOTATIONS
-==========================================
-• Auto-Dim: Insert > Model Items
-• Manual:
-  - Smart Dimension
-  - Surface Finish
-  - GD&T
+===============================================================================
+Auto-Dimensions : Insert > Model Items
+Manual Tools:
+• Smart Dimension
+• Surface Finish
+• GD&T Symbols
+• Center Marks
 
-==========================================
-5. SETUP
-==========================================
-• Templates: Title blocks, layers
-• Sheets: ANSI/ISO, multi-sheet
+===============================================================================
+5. DRAWING SETUP
+===============================================================================
+Templates:
+• Title Blocks  : Company/Project specific
+• Layers       : Dimension/Annotation groups
 
-==========================================
+Sheet Formats:
+• ANSI/ISO     : Standard sizes
+• Multi-sheet  : Large assemblies
+
+===============================================================================
 KEY COMMANDS
-==========================================
-View Palette | Model Items | Center Mark 
-Explode Line Sketch
+===============================================================================
+View Palette     Model Items      Explode Line Sketch
+Center Mark      Section View    Detail Circle
 
-==========================================
+===============================================================================
 BEST PRACTICES
-==========================================
-1. Set scales first
-2. Use layers
-3. Verify associativity
+===============================================================================
+1. SET SCALES FIRST - Before adding details
+2. USE LAYERS      - For organization
+3. VERIFY SYNC     - Check associativity
 
-// DigitalCADD Certification Content //
+# END OF CHAPTER 14 - DIGITALCADD CERTIFICATION CONTENT #
