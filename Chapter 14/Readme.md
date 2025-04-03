@@ -1,76 +1,60 @@
 # CHAPTER 14: WORKING WITH DRAWING VIEWS
-# Part of SOLIDWORKS Certification Program by DigitalCADD
+## SOLIDWORKS Certification - DigitalCADD
 
-============================================
+==========================================
 1. DRAWING MODE FUNDAMENTALS
-============================================
+==========================================
+• Generative Drafting: Auto 2D from 3D [Standard 3 View]
+• Interactive Drafting: Manual sketching
+• Bidirectional Associativity: Real-time sync
 
-* Two Drafting Methods:
-  - Generative Drafting: Auto 2D views from 3D
-  - Interactive Drafting: Manual 2D sketching
+==========================================
+2. VIEW TYPES
+==========================================
+| Type            | Command          | Shortcut       |
+|-----------------|------------------|----------------|
+| Standard        | Orthographic     | Front/Top/Side |
+| Section         | Cross-section    | Section View   |
+| Detail          | Magnified        | Detail View    |
+| Exploded        | Assembly         | Exploded View  |
+| Auxiliary       | Angled surfaces  | Auxiliary View |
 
-* Bidirectional Associativity:
-  - Sync between Part/Assembly/Drawing modes
-  - Changes update across all documents
-
-============================================
-2. VIEW TYPES & SHORTCUTS
-============================================
-
-| View Type        | Command            | Shortcut        |
-|------------------|--------------------|-----------------|
-| Standard Views   | Orthographic       | Standard 3 View |
-| Section Views    | Cross-sections     | Section View    | 
-| Detail Views     | Magnified features | Detail View     |
-| Exploded Views   | Assembly display   | Exploded View   |
-| Auxiliary Views  | Angled surfaces    | Auxiliary View  |
-
-============================================
+==========================================
 3. VIEW MANIPULATION
-============================================
-
-* Editing:
-  - Scale: Properties > Scale
-  - Align: Right-click > Align
-  - Delete: Select + Del key
-
-* Section Options:
+==========================================
+• Scale: Properties > Scale
+• Align: Right-click > Align
+• Delete: Select + Del
+• Section Options:
   - Hatch: Section View > Hatch
-  - Cut lines: Edit cutting plane
+  - Cut lines: Edit plane
 
-============================================
+==========================================
 4. ANNOTATIONS
-============================================
-
-* Auto Dimensioning:
-  Insert > Model Items
-
-* Manual Tools:
+==========================================
+• Auto-Dim: Insert > Model Items
+• Manual:
   - Smart Dimension
-  - Surface finish symbols  
+  - Surface Finish
   - GD&T
 
-============================================
-5. DRAWING SETUP
-============================================
+==========================================
+5. SETUP
+==========================================
+• Templates: Title blocks, layers
+• Sheets: ANSI/ISO, multi-sheet
 
-* Templates:
-  - Custom title blocks
-  - Default layers
-
-* Sheet Formats:
-  - ANSI/ISO standards
-  - Multiple sheets
-
-============================================
+==========================================
 KEY COMMANDS
-============================================
-- View Palette        - Model Items
-- Center Mark        - Explode Line Sketch
+==========================================
+View Palette | Model Items | Center Mark 
+Explode Line Sketch
 
-============================================
+==========================================
 BEST PRACTICES
-============================================
+==========================================
 1. Set scales first
 2. Use layers
 3. Verify associativity
+
+// DigitalCADD Certification Content //
