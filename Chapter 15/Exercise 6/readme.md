@@ -66,7 +66,7 @@ This repository demonstrates multiple dimensioning techniques from the **Digital
 [Previous drawing previews remain unchanged]
 + 
 ### 🔹 Angular Dimensions View
-![Angular Running Dimensions](./Cover_Angular%20running.pdf)
+![Angular Running Dimensions](./Cover_Angular_running.pdf)
 
 ---
 
