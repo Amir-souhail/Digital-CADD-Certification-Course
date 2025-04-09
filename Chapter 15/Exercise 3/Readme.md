@@ -2,7 +2,7 @@
 
 This repository is part of the **DigitalCADD Certification Course** and explores key drawing annotation tools in SOLIDWORKS through **Chapter 15: Working with Drawing Views-II**. I have applied these concepts to the *Vice Body* component shown below.
 
-![Vice Body Drawing](./Vice%20Body_smart%20Dimension.JPG)
+![Vice Body Drawing](./Vice%20Body_smart%20Dimension_BaseLine.JPG)
 
 ---
 
