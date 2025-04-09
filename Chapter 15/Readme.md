@@ -2,6 +2,8 @@
 
 This repository contains my personal learning notes, practice files, and exercises related to **Chapter 15 of SOLIDWORKS**: *Working with Drawing Views - II*. This chapter dives deeper into professional drafting and annotation practices that are crucial for creating manufacturing-ready 2D drawings from 3D models and assemblies in SOLIDWORKS.
 
+> 📚 _This repository is part of the **DigitalCADD Certification Course** on SOLIDWORKS._
+
 ---
 
 ## 🎯 Learning Objectives
@@ -55,18 +57,15 @@ Drawing documentation is a critical part of the product lifecycle and widely use
 
 ---
 
-<details>
-  <summary>📘 <strong>Chapter 15 Summary</strong></summary>
+## 🧠 Chapter Summary Table
 
-### 🧭 Summary Badges
+### ✅ Summary Badges  
 ![SolidWorks](https://img.shields.io/badge/Tool-SolidWorks-blue?logo=solidworks&style=flat-square)
 ![Status](https://img.shields.io/badge/Progress-In_Progress-yellow?style=flat-square)
 ![Level](https://img.shields.io/badge/Level-Intermediate-blueviolet?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Drawing_Annotations-lightgrey?style=flat-square)
 
----
-
-### 🧠 Learning Outcomes Table
+### 📊 Learning Outcomes Table
 
 | Topic Area                            | Description                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------|
@@ -83,8 +82,6 @@ Drawing documentation is a critical part of the product lifecycle and widely use
 | User-defined Sheet Formats            | Create reusable custom drawing templates                                    |
 | Magnetic Lines                        | Align and organize balloons efficiently                                     |
 
-</details>
-
 ---
 
 ## 📬 Contact Information
@@ -98,4 +95,4 @@ For questions, collaborations, or feedback, feel free to reach out:
 
 ---
 
-> _This repository is part of my ongoing journey learning SOLIDWORKS as an R&D Engineer working on autonomous underwater vehicles (AUVs)._ 🌊⚙️
+> _This repository is part of my ongoing journey learning SOLIDWORKS as an R&D Engineer working on autonomous underwater vehicles (AUVs), and is based on content from the DigitalCADD Certification Course._ 🌊⚙️
