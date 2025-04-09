@@ -2,7 +2,7 @@
 
 This repository is part of the **DigitalCADD Certification Course** and explores key drawing annotation tools in SOLIDWORKS through **Chapter 15: Working with Drawing Views-II**. I have applied these concepts to the *Cover* component shown below using **Angular Running Dimensions**.
 
-![Cover Angular Drawing](./Cover_Angular%20running.jpg)
+![Cover Angular Drawing](./Cover_Angular_running.jpg)
 
 ---
 
