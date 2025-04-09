@@ -36,7 +36,7 @@ This repository demonstrates multiple dimensioning techniques from the **Digital
 20° → 10° → 5° → 4° → 3° → 2° → 1°
 
 
-![Angular Dimension Example](./Cover_Angular%20running.pdf)
+![Angular Dimension Example](./Cover_Angular running.jpg)
 
 **Best Practices:**
 - Use for consecutive angular features
