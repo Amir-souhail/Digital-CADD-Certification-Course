@@ -1,8 +1,6 @@
-
----
-
-```markdown
 # 🧩 Surface Modeling in SOLIDWORKS
+
+![SOLIDWORKS Certified](https://img.shields.io/badge/SOLIDWORKS-Certification-blue?logo=solidworks&logoColor=white)
 
 Welcome to my notes and learning material for **Chapter 16: Surface Modeling**, part of the **SOLIDWORKS Certification Course** offered by **Digital CADD Solutions**.
 
@@ -86,5 +84,3 @@ It is designed to help me gain professional-level skills in 3D modeling using SO
 ---
 
 **🖊️ Created by:** *Amir Souhail*
-```
-
