@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/SolidWorks_Logo.png" alt="SOLIDWORKS Logo" width="250"/>
-</p>
+
 
 # 🧩 Bottle Surface Modeling Practice  
 **By Amir Souhail**  
