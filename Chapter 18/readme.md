@@ -3,7 +3,7 @@
 ## **Project Overview**
 This professional resource provides comprehensive SOLIDWORKS sheet metal design materials with clear learning outcomes and measurable objectives. The collection bridges theoretical knowledge with practical industrial applications through progressive skill development.
 
-![Sheet Metal Design Spectrum](https://via.placeholder.com/800x400?text=From+Basic+to+Advanced+Sheet+Metal)
+
 
 ## **Learning Outcomes**
 By engaging with these materials, users will be able to:
