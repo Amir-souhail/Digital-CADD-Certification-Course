@@ -64,13 +64,9 @@ This is the most essential output for fabrication. It converts the 3D part into 
 ### 🧰 Forming Tools
 Used to create features like louvers or embosses using pre-defined or custom tools. These tools simulate punching and pressing actions.
 
----
 
-## 🧩 Visual Reference
 
-| Model View | Flat Pattern View |
-|------------|-------------------|
-| ![Figure 18-1](assets/Figure18-1.jpg) | ![Figure 18-2](assets/Figure18-2.jpg) |
+
 
 ---
 
