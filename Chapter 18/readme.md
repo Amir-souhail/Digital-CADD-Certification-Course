@@ -1,149 +1,95 @@
-Here's your enhanced README file that maintains the professional format while incorporating additional elements:
+# 🏗️ Sheet Metal Design - SOLIDWORKS Chapter 18
 
-# **SOLIDWORKS Sheet Metal Design Mastery Resource**
-
-## **Project Overview**  
-![Sheet Metal Design Banner](https://via.placeholder.com/1200x400?text=SOLIDWORKS+Sheet+Metal+Design+Mastery)  
-This professional resource provides comprehensive SOLIDWORKS sheet metal design materials with clear learning outcomes and measurable objectives. The collection bridges theoretical knowledge with practical industrial applications through progressive skill development.
+This repository contains files and learning notes related to **Chapter 18: Sheet Metal Design** from the SOLIDWORKS course by Digital CADD Solutions.
 
 ---
 
-## **📌 Quick Navigation**
-- [Learning Outcomes](#learning-outcomes)
-- [Core Features](#core-features)  
-- [Getting Started](#-getting-started)  
-- [Tutorial Videos](#-tutorial-videos)  
-- [Community Contributions](#-community-contributions)  
-- [Version History](#-version-history)  
+## 🧠 Concept: What is Sheet Metal Design in SOLIDWORKS?
+
+**Sheet Metal Design** in SOLIDWORKS is a specialized workflow that allows you to create parts that are manufactured by bending flat metal sheets. It focuses on features and tools that simulate real-world fabrication methods, such as bending, cutting, punching, and forming.
+
+In traditional modeling, you'd model the entire solid. But in sheet metal, the goal is to design **bends, flanges, and cuts** in a way that the part can be flattened into a **2D pattern** (called the **flat pattern**) and later manufactured using tools like laser cutters or press brakes.
+
+### 🛠️ Key Principles
+
+- **Base Flange**: The starting point of any sheet metal part. It defines the initial flat sheet from which all other features grow.
+- **Flanges and Bends**: Let you fold the sheet in different directions while accounting for real-world material behavior (like bend allowance and relief).
+- **Flat Pattern**: A flattened view of the part used for manufacturing, allowing for proper tooling design.
 
 ---
 
-## **Learning Outcomes**  
-By engaging with these materials, users will be able to:
+## 🎯 Learning Outcomes
 
-1. **Design Competency**  
-   - Create manufacturable sheet metal components meeting industry standards  
-   - Apply proper bend allowances and K-factors for various materials  
-   - Develop both simple and complex sheet metal geometries  
+After completing this chapter, I was able to:
 
-2. **Technical Proficiency**  
-   - Generate accurate flat patterns for manufacturing  
-   - Convert solid models into production-ready sheet metal parts  
-   - Optimize designs for CNC machining and press brake operations  
-
-3. **Workflow Mastery**  
-   - Implement efficient design-to-production workflows  
-   - Troubleshoot common sheet metal design challenges  
-   - Apply design-for-manufacturing principles  
-
-4. **Specialized Applications**  
-   - Develop conical and cylindrical sheet metal components  
-   - Create custom forming tools for specialized features  
-   - Manage multi-body sheet metal assemblies  
+- Create base, edge, and miter flanges
+- Understand the FeatureManager Design Tree of a sheet metal component
+- Create tabs, closed corners, and hems
+- Create sketched, lofted, and jogged bends
+- Break corners of sheet metal components
+- Create cuts on the flat faces of sheet metal components
+- Create the flat pattern of sheet metal components
+- Create swept flanges along a sheet metal component or sketch
+- Create sheet metal components from a flat sheet and a flat part
+- Create sheet metal components by designing it as a part
+- Design sheet metal parts from a shelled solid model
+- Create cuts in sheet metal components across the bends
+- Create cylindrical and conical sheet metal components
+- Generate the drawing views of the flat pattern of the sheet metal components
+- Create new forming tools
+- Edit forming tools
 
 ---
 
-## **Core Features**  
-### **🛠️ Design Tools**
-- Base/Edge/Miter Flange creation  
-- Hem/Jog/Closed Corner features  
-- Forming Tools (louvers, ribs, embosses)  
+## 🧩 Feature Breakdown
 
-### **📐 Advanced Functionality**  
-- Lofted bends for conical shapes  
-- Solid-to-sheet metal conversion  
-- Multi-body sheet metal designs  
+### 📐 Base Flange
+This is the first feature in most sheet metal models. It defines the base geometry using a sketch and assigns a thickness to it. It sets up the sheet metal parameters such as bend radius, relief type, and thickness.
 
-### **🏭 Manufacturing Outputs**  
-- DXF/DWG export with bend lines  
-- Bend sequence tables  
-- Flat pattern validation tools  
+### 📏 Edge, Miter, and Swept Flanges
+These features are added onto edges of the base flange. Miter flanges allow for angular bends between connected flanges, and swept flanges follow a sketched path.
 
----
+### ➕ Tabs, Hems, Closed Corners
+Tabs add additional material. Hems are used to fold edges over to eliminate sharp corners or to strengthen. Closed corners help seal gaps between bends for better manufacturability.
 
-## **🚀 Getting Started**  
-1. **Prerequisites**  
-   - SOLIDWORKS 2018+  
-   - Basic sketching knowledge  
+### 🔄 Bends: Sketched, Lofted, Jogged
+These allow creative bending of the sheet metal with sketched lines or between profiles (lofted). Jogged bends are used to create offset sections.
 
-2. **Installation**  
-   ```bash
-   git clone https://github.com/Amir-souhail/sheet-metal-design.git
-   ```
-3. **First Project**  
-   - Open `/examples/base_flange/start_here.SLDPRT`  
-   - Follow in-file instructions  
+### ✂️ Cuts and Corner Relief
+Cuts can be placed on flat or bent faces. Corner reliefs are essential to avoid material tearing during bending.
+
+### 🧾 Flat Pattern View
+This is the most essential output for fabrication. It converts the 3D part into a 2D layout used by tools like laser cutters or water jets.
+
+### 🧰 Forming Tools
+Used to create features like louvers or embosses using pre-defined or custom tools. These tools simulate punching and pressing actions.
 
 ---
 
-## **📺 Tutorial Videos**  
-| Topic | Duration | Level |  
-|-------|----------|-------|  
-| [Base Flange Fundamentals](link) | 12:45 | Beginner |  
-| [Flat Pattern Deep Dive](link) | 18:30 | Intermediate |  
-| [Custom Forming Tools](link) | 25:15 | Advanced |  
+## 🧩 Visual Reference
+
+| Model View | Flat Pattern View |
+|------------|-------------------|
+| ![Figure 18-1](assets/Figure18-1.jpg) | ![Figure 18-2](assets/Figure18-2.jpg) |
 
 ---
 
-## **🤝 Community Contributions**  
-We welcome:  
-- New example files  
-- Translated tutorials  
-- Manufacturing checklists  
+## ✍️ Notes Summary
 
-**Contribution Guide**:  
-1. Fork repository  
-2. Create feature branch  
-3. Submit PR with:  
-   - SOLIDWORKS file (2018 format)  
-   - Matching flat pattern  
-   - Documentation  
+- Sheet metal parts are generally modeled in **Part mode**.
+- The **Sheet Metal CommandManager** contains all tools used for sheet metal modeling.
+- Important modeling practices include creating the base flange, then adding secondary features such as edge flanges, hems, jogs, and forming tools.
+- Bends are automatically accounted for using standard bend allowances or custom tables.
+- Sheet metal design can start from a solid or directly from a flat layout.
+- Flattening is used not only for visualization but for downstream operations like CNC and laser cutting.
 
 ---
 
-## **🔄 Version History**  
-| Version | Date | Changes |  
-|---------|------|---------|  
-| 1.2.0 | 2023-11-15 | Added conical components module |  
-| 1.1.0 | 2023-09-01 | Enhanced forming tools library |  
-| 1.0.0 | 2023-05-20 | Initial release |  
+## 💼 Professional Contact
 
----
-
-## **📊 Assessment Metrics**  
-- 90% success rate in manufacturable flat patterns  
-- 100% compliance with bend radius rules  
-- 85% improvement in design-to-production efficiency  
-
----
-
-## **📜 License**  
-MIT License - See [LICENSE](LICENSE) for details. Permits:  
-✅ Commercial use  
-✅ Modifications  
-✅ Private use  
-
----
-
-## **📬 Professional Contact**  
-For partnerships or technical queries:  
+For technical consultation or educational partnerships:
 
 - **Email**: [amir.souhail@gmail.com](mailto:amir.souhail@gmail.com)  
 - **LinkedIn**: [Amir Souhail](https://www.linkedin.com/in/amir-souhail-3b939069/)  
-- **GitHub**: [Amir-souhail](https://github.com/Amir-souhail)  
+- **GitHub**: [Amir-souhail](https://github.com/Amir-souhail)
 
----
-
-**Precision Sheet Metal Education**  
-*"Bridging CAD mastery with manufacturing excellence"*  
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.123456.svg)](https://doi.org/10.5281/zenodo.123456)  
-[![SOLIDWORKS Version](https://img.shields.io/badge/SOLIDWORKS-2018%2B-blue)](https://www.solidworks.com)  
-
-This enhanced version maintains your original professional structure while adding:  
-- Visual elements (badges, banners)  
-- Quick navigation  
-- Version tracking  
-- Embedded media links  
-- Community engagement sections  
-- DOI reference for academic citation
