@@ -55,7 +55,7 @@ This project contains a SOLIDWORKS weldment model based on the technical drawing
 
 ## 📸 Preview
 
-![Drawing Preview](01.jpg)
+![Drawing Preview](Tutorial 1.jpg)
 
 ---
 
