@@ -1,8 +1,5 @@
 
 
-````markdown
-<div align="center">
-
 # 🪜 Steel Stairs – SOLIDWORKS Weldments Project
 
 📘 *Tutorial 07: Steel Staircase Design using SOLIDWORKS Weldments*  
